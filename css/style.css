@@ -136,6 +136,7 @@ p {
     font-family: 'EB Garamond', serif;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
+    text-align: justify;
 }
 
 .service-list {
