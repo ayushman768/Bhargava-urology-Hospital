@@ -136,7 +136,6 @@ p {
     font-family: 'EB Garamond', serif;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
-    text-align: justify;
 }
 
 .service-list {
@@ -212,7 +211,7 @@ form,
         color: rgb(255, 255, 255);
     }
     .head {
-        text-align: left!important;
+        text-align: center!important;
     }
     .nav,
     .ul,
@@ -233,5 +232,13 @@ form,
     }
     .carousel-indicators>li {
         padding: 0px;
+    }
+    .contact,
+    .social-icn>ul>li {
+        list-style-type: none;
+        padding: 0px 5px;
+    }
+    p {
+        text-align: justify;
     }
 }
