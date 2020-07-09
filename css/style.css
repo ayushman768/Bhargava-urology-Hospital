@@ -94,7 +94,7 @@ a {
 .nav,
 .img-pad,
 .social-icn {
-    padding-top: 10px;
+    padding-top: 10px!important;
 }
 .social-icn{
  padding-top:10px;
