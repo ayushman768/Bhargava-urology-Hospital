@@ -139,12 +139,11 @@ p {
 }
 
 .btn {
-    background: rgb(0, 118, 210);
-    /* background: border-box; */
-    color: rgb(255, 255, 255);
-    border-radius: 28px;
-    padding: 10px;
+    background: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
+
 
 .service-list {
     box-shadow: 1px 4px 5px 0px;
