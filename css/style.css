@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* ############################### */
+
+body {
+    font-family: 'Crimson Text', serif!important;
+}
+
+
+/* ########################## */
+
+h2 {
+    font-size: 23px!important;
+    letter-spacing: 5px;
+    font-weight: 700!important;
+    padding: 7px;
+}
+
+
+/* ############################ */
+
+.col-flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.display-inline {
+    display: inline-flex;
+}
+
+.pad-10 {
+    padding: 10px;
+}
+
+.pad-5 {
+    padding: 5px;
+}
+
+.color-white {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.color-blue {
+    color: rgb(0, 102, 202);
+}
+
+
+/* ############################## */
+
+.contact ul,
+li,
+a {
+    list-style-type: none;
+    display: inline-block!important;
+    padding: 5px;
+}
+
+.text-position {
+    display: inline-flex;
+}
+
+.contact,
+.social-icn,
+.text-position,
+.logo,
+.nav,
+.About-head>h1,
+.about-content,
+.urology-about-img,
+.service-list,
+.appointment-form,
+.address,
+.phone,
+.email,
+.gallery-img {
+    width: 100%;
+}
+
+.gallery-img>img {
+    height: 286px;
+    padding: 10px;
+    border: 4px solid rgb(0, 88, 165);
+}
+
+.nav,
+.img-pad {
+    padding-top: 10px;
+}
+
+.logo,
+.service-list>img {
+    width: 47px;
+}
+
+.contact {
+    font-size: 19px;
+}
+
+header,
+footer {
+    background-image: url(..//img/urology-header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    color: white;
+}
+
+.item img {
+    width: 100%;
+    height: 495px!important;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+p {
+    line-height: 1.6;
+    padding: 10px;
+    font-family: 'Bitter', serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+.service-list {
+    box-shadow: 1px 4px 5px 0px;
+    padding: 10px px;
+    margin: 0px 10px;
+    height: 370px;
+}
+
+.service-list>img {
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.service-list:hover {
+    color: white;
+    background: rgb(0, 104, 192);
+    transition: 0.2s ease-in;
+    box-shadow: 1px 4px 5px 0px;
+}
+
+.bg-4 {
+    background-image: url(..//img/urology-header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form,
+.appointment-form {
+    /* background: rgb(0, 116, 210); */
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#menu,
+.block {
+    display: none;
+}
+
+
+/* ################################### */
+
+@media (max-width: 1024px) {
+    .col-flex {
+        display: block;
+        flex-wrap: wrap;
+    }
+    .text-position {
+        display: block;
+    }
+    .block {
+        display: block!important;
+    }
+    .nav {
+        display: none;
+    }
+    .item img {
+        width: 100%;
+        height: 250px!important;
+    }
+    span {
+        display: block;
+    }
+    #menu:checked~header .nav {
+        display: block;
+    }
+    label i {
+        position: absolute;
+        right: 26px;
+        top: 8px;
+        font-size: 42px!important;
+        color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+    }
+    .head {
+        text-align: center!important;
+    }
+    .nav,
+    .ul,
+    li,
+    a {
+        list-style-type: none;
+        padding: 10px 5px;
+        text-align: left;
+    }
+    .nav>ul>li {
+        display: block!important;
+    }
+    .service-list {
+        box-shadow: 1px 4px 5px 0px;
+        padding: 10px px;
+        margin: 16px 0px;
+        height: 370px;
+    }
+    .carousel-indicators>li {
+        padding: 0px;
+    }
+}
