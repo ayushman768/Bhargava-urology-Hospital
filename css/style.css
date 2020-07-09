@@ -138,6 +138,14 @@ p {
     font-size: 18px;
 }
 
+.btn {
+    background: rgb(0, 118, 210);
+    /* background: border-box; */
+    color: rgb(255, 255, 255);
+    border-radius: 28px;
+    padding: 10px;
+}
+
 .service-list {
     box-shadow: 1px 4px 5px 0px;
     padding: 10px px;
@@ -155,6 +163,12 @@ p {
     background: rgb(0, 104, 192);
     transition: 0.2s ease-in;
     box-shadow: 1px 4px 5px 0px;
+}
+
+btn {
+    background: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 .bg-4 {
