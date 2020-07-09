@@ -21,9 +21,7 @@ h2,h3,h4,h5,h6{
     font-weight: 900!important;
     padding: 7px;
 }
-h1{
-font-size:28px!important;
-}
+
 
 /* ############################ */
 
@@ -258,4 +256,7 @@ form,
     p {
         text-align: justify;
     }
+	h1{
+     font-size:28px!important;
+   }
 }
