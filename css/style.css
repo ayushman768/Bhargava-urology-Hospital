@@ -245,15 +245,14 @@ form,
     .carousel-indicators>li {
         padding: 0px;
     }
-    .contact,
-    .social-icn>ul>li {
+    .contact>ul>li {
         list-style-type: none;
         padding: 0px 5px;
     }
-	.social-icn{
-		display:none;
-    
-	}
+    .social-icn{
+	display:none!important;
+
+    }
     p {
         text-align: justify;
     }
